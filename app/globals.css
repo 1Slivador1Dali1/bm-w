@@ -5,6 +5,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --osnovnoy-cvet: #ddfc53;
+  --osnovnoy-cvet-2: #2c2c2c;
+  --akcentnyy-cvet: #b06cf4;
+  --cvet-teksta: #000;
+  --osnovnoy-cvet-3: rgba(200, 200, 200, 0.8);
+  --cvet-hedera: rgba(0, 0, 0, 0.77);
+  --cvet-teksta-2: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
