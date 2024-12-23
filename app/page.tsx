@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-w-[375px] max-w-[1920px] min-h-screen bg-[var(--cvet-teksta-2)]  pt-[50px]">
-      <div className="min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1520px] mx-auto flex flex-col justify-center gap-7">
+    <div className="min-w-[375px] max-w-[1920px] min-h-screen bg-[var(--cvet-teksta-2)] pt-[50px]">
+      <div className="min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1520px] mx-auto flex flex-col justify-center gap-7 mb-[120px]">
         <div className="flex flex-col sm:gap-3 xl:gap-7 w-full max-md:px-2 md:px-3">
           <h2 className="max-sm:w-[150px] text-[var(--cvet-teksta)] font-bold uppercase lg:text-[26px] xl:text-[45px] 2xl:text-[55px] max-xl:leading-[1.5rem] xl:leading-[4.5rem] tracking-[0.04em]">
             Мы создаем <br /> цифровую реальность
@@ -84,6 +84,86 @@ export default function Home() {
               Доверьте создание и продвижение сайта нам — закажите сайт под ключ
               и получите актив, который будет работать на ваш успех!
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative">
+        <Image
+          src="/bgwe.png"
+          className=" hidden absolute top-[146px] right-[28px] md:block "
+          alt="Example"
+          width={826}
+          height={723}
+        />
+
+        <div className="w-[1760px] absolute z-10">
+          <div className="max-w-[1770px] flex flex-col items-start justify-start gap-7 h-[800px]">
+            <div className="max-w-[1760px] max-h-[98px] flex items-center gap-[30px] pr-[800px]">
+              <Image
+                src="/logoweblock.svg"
+                className="hidden md:block"
+                alt="Example"
+                width={98}
+                height={98}
+              />
+
+              <h2 className="font-bold uppercase text-[var(--cvet-teksta)] text-[55px] max-w-[804px] ">
+                Почему мы?
+              </h2>
+            </div>
+
+            <div className="max-w-[904px] flex flex-col gap-8 max-h-[643px] justify-between">
+              <div className="max-w-[904px] py-8 pl-8 pr-10 flex gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] max-h-[193px] ">
+                <span className="font-bold text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[60px] inline-block align-top">
+                  01
+                </span>
+
+                <div className="max-w-[623px] flex flex-col gap-3">
+                  <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
+                    Работа с современными CMS
+                  </h3>
+                  <p className="max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                    Создаем сайты на мощных системах управления контентом,
+                    такими как Payload, WordPress, 1С-Битрикс, Joomla, OpenCart
+                    и другие.
+                  </p>
+                </div>
+              </div>
+
+              <div className="max-w-[904px] py-8 pl-8 pr-10 flex gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] max-h-[193px]">
+                <span className="font-bold text-6xl text-[var(--osnovnoy-cvet-3)] h-[70px]">
+                  02
+                </span>
+
+                <div className="max-w-[623px] flex flex-col gap-3">
+                  <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
+                    Постановка бизнес-задачи
+                  </h3>
+                  <p className="max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                    Каждый проект начинается с анализа вашего бизнеса. Создаем
+                    уникальный сайт, который решает ваши задачи и соответствует
+                    вашим целям.
+                  </p>
+                </div>
+              </div>
+
+              <div className="max-w-[904px] pt-8 pb-[57px] pl-8 pr-10 flex gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] max-h-[193px]">
+                <span className="font-bold text-6xl text-[var(--osnovnoy-cvet-3)] h-[70px]">
+                  03
+                </span>
+
+                <div className="max-w-[623px] flex flex-col gap-3">
+                  <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
+                    Создание продающих сайтов под ключ
+                  </h3>
+                  <p className="max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                    Мы разрабатываем не просто сайты, а ликвидные проекты с
+                    продуманным дизайном и маркетинговой стратегией.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
