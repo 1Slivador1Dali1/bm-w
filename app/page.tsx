@@ -88,7 +88,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="xl:h-[967px] 2xl:h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative mb-11 px-3 overflow-hidden">
+      <div className="xl:h-[967px] 2xl:h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative mb-11 overflow-hidden">
         <Image
           src="/bgwe.png"
           className="hidden absolute xl:bottom-0 xl:right-[-114px] 2xl:top-[146px] 2xl:right-[28px] md:block "
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
 
             <div className="max-w-[904px] flex flex-col gap-8 xl:max-h-[724px] 2xl:max-h-[643px] justify-between">
-              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-0 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px] ">
+              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-8 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px] ">
                 <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px] inline-block align-top">
                   01
                 </span>
@@ -131,7 +131,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-0 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
+              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-8 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
                 <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px]">
                   02
                 </span>
