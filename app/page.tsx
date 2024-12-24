@@ -88,7 +88,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative mb-11 overflow-hidden">
+      <div className="xl:h-[967px] 2xl:h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative mb-11 px-3 overflow-hidden">
         <Image
           src="/bgwe.png"
           className="hidden absolute xl:bottom-0 xl:right-[-114px] 2xl:top-[146px] 2xl:right-[28px] md:block "
@@ -97,25 +97,25 @@ export default function Home() {
           height={723}
         />
 
-        <div className="xl:max-w-[1535px] 2xl:w-[1760px] absolute z-10">
+        <div className="xl:max-w-[1435px] 2xl:w-[1760px] absolute z-10">
           <div className="xl:max-w-[1335px] 2xl:max-w-[1700px] flex flex-col items-start justify-start gap-7 2xl:h-[800px]">
-            <div className="max-w-[1760px] max-h-[98px] flex items-center gap-[30px] pr-[800px]">
+            <div className="max-w-[1760px] max-h-[98px] flex items-center gap-[30px] xl:pr-[845px] 2xl:pr-[800px]">
               <Image
                 src="/logoweblock.svg"
-                className="hidden md:block"
+                className="hidden md:block 2xl:h-24 2xl:w-24 xl:h-[86px] xl:w-[86px]"
                 alt="Example"
                 width={98}
                 height={98}
               />
 
-              <h2 className="font-bold uppercase text-[var(--cvet-teksta)] text-[55px] max-w-[804px] ">
+              <h2 className="font-bold uppercase text-[var(--cvet-teksta)] xl:text-[45px] 2xl:text-[55px] max-w-[804px] ">
                 Почему мы?
               </h2>
             </div>
 
-            <div className="max-w-[904px] flex flex-col gap-8 max-h-[643px] justify-between">
-              <div className="max-w-[904px] py-8 pl-8 pr-10 flex gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] max-h-[193px] ">
-                <span className="font-bold text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[60px] inline-block align-top">
+            <div className="max-w-[904px] flex flex-col gap-8 xl:max-h-[724px] 2xl:max-h-[643px] justify-between">
+              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-0 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px] ">
+                <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px] inline-block align-top">
                   01
                 </span>
 
@@ -123,7 +123,7 @@ export default function Home() {
                   <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
                     Работа с современными CMS
                   </h3>
-                  <p className="max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                  <p className="xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
                     Создаем сайты на мощных системах управления контентом,
                     такими как Payload, WordPress, 1С-Битрикс, Joomla, OpenCart
                     и другие.
@@ -131,8 +131,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="max-w-[904px] py-8 pl-8 pr-10 flex gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] max-h-[193px]">
-                <span className="font-bold text-6xl text-[var(--osnovnoy-cvet-3)] h-[70px]">
+              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-0 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
+                <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px]">
                   02
                 </span>
 
@@ -140,7 +140,7 @@ export default function Home() {
                   <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
                     Постановка бизнес-задачи
                   </h3>
-                  <p className="max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                  <p className="xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
                     Каждый проект начинается с анализа вашего бизнеса. Создаем
                     уникальный сайт, который решает ваши задачи и соответствует
                     вашим целям.
@@ -148,8 +148,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="max-w-[904px] pt-8 pb-[57px] pl-8 pr-10 flex gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] max-h-[193px]">
-                <span className="font-bold text-6xl text-[var(--osnovnoy-cvet-3)] h-[70px]">
+              <div className="max-w-[904px] pt-8 pb-[57px] pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
+                <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px]">
                   03
                 </span>
 
@@ -157,7 +157,7 @@ export default function Home() {
                   <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
                     Создание продающих сайтов под ключ
                   </h3>
-                  <p className="max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                  <p className="xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
                     Мы разрабатываем не просто сайты, а ликвидные проекты с
                     продуманным дизайном и маркетинговой стратегией.
                   </p>
