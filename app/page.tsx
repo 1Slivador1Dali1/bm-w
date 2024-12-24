@@ -88,17 +88,17 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative">
+      <div className="h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative mb-11 overflow-hidden">
         <Image
           src="/bgwe.png"
-          className=" hidden absolute top-[146px] right-[28px] md:block "
+          className="hidden absolute xl:bottom-0 xl:right-[-114px] 2xl:top-[146px] 2xl:right-[28px] md:block "
           alt="Example"
           width={826}
           height={723}
         />
 
-        <div className="w-[1760px] absolute z-10">
-          <div className="max-w-[1770px] flex flex-col items-start justify-start gap-7 h-[800px]">
+        <div className="xl:max-w-[1535px] 2xl:w-[1760px] absolute z-10">
+          <div className="xl:max-w-[1335px] 2xl:max-w-[1700px] flex flex-col items-start justify-start gap-7 2xl:h-[800px]">
             <div className="max-w-[1760px] max-h-[98px] flex items-center gap-[30px] pr-[800px]">
               <Image
                 src="/logoweblock.svg"
