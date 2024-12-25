@@ -88,42 +88,42 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="xl:h-[967px] 2xl:h-[869px] min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center relative mb-11 overflow-hidden">
+      <div className="px-2 md:pl-5 xl:pl-0 h-[546px] xl:h-[967px] 2xl:h-[869px] min-w-[375px] max-md:max-w-[780px] md:max-w-[1024px] lg:max-w-[1300px] xl:max-w-[1600px] 2xl:max-w-[1920px] bg-[var(--osnovnoy-cvet)] mx-auto flex items-center justify-center md:items-start md:justify-start xl:items-center xl:justify-center relative mb-11 overflow-hidden">
         <Image
           src="/bgwe.png"
-          className="hidden absolute xl:bottom-0 xl:right-[-114px] 2xl:top-[146px] 2xl:right-[28px] md:block "
+          className="hidden md:absolute md:bottom-0 md:right-[-114px] md:w-[542px] md:h-[497px] xl:w-[826px] xl:h-[723px] xl:bottom-0 xl:right-[-114px] 2xl:top-[146px] 2xl:right-[28px] md:block "
           alt="Example"
           width={826}
           height={723}
         />
 
-        <div className="xl:max-w-[1435px] 2xl:w-[1760px] absolute z-10">
-          <div className="xl:max-w-[1335px] 2xl:max-w-[1700px] flex flex-col items-start justify-start gap-7 2xl:h-[800px]">
-            <div className="max-w-[1760px] max-h-[98px] flex items-center gap-[30px] xl:pr-[845px] 2xl:pr-[800px]">
+        <div className=" min-w-[375px] max-md:max-w-[748px] md:max-w-[748px] xl:max-w-[1435px] 2xl:w-[1760px] absolute z-10">
+          <div className=" min-w-[375px] max-md:max-w-[748px] md:max-w-[748px] xl:max-w-[1335px] 2xl:max-w-[1700px] flex flex-col max-sm:justify-center max-sm:items-center items-start justify-start max-md:gap-3 md:gap-5 xl:gap-7 md:pt-3 md:h-[510px] xl:h-[840px] 2xl:h-[800px]">
+            <div className="max-w-[1760px] max-h-[98px] flex items-center gap-[30px] max-sm:pr-[220px] xl:pr-[845px] 2xl:pr-[800px]">
               <Image
                 src="/logoweblock.svg"
-                className="hidden md:block 2xl:h-24 2xl:w-24 xl:h-[86px] xl:w-[86px]"
+                className="hidden xl:block 2xl:h-24 2xl:w-24 xl:h-[86px] xl:w-[86px]"
                 alt="Example"
                 width={98}
                 height={98}
               />
 
-              <h2 className="font-bold uppercase text-[var(--cvet-teksta)] xl:text-[45px] 2xl:text-[55px] max-w-[804px] ">
+              <h2 className="font-bold uppercase text-[var(--cvet-teksta)] text-base md:text-[26px] xl:text-[45px] 2xl:text-[55px] max-w-[804px] pl-2">
                 Почему мы?
               </h2>
             </div>
 
-            <div className="max-w-[904px] flex flex-col gap-8 xl:max-h-[724px] 2xl:max-h-[643px] justify-between">
-              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-8 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px] ">
-                <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px] inline-block align-top">
+            <div className="max-w-[904px] flex flex-col gap-3 xl:gap-8 xl:max-h-[724px] 2xl:max-h-[643px] justify-between ">
+              <div className="max-w-[335px] md:max-w-[470px] xl:max-w-[904px] pt-3 xl:pt-8 pb-6 md:pb-[13px] xl:pb-[54px] 2xl:pb-8 pl-3 xl:pl-8 pr-3 md:pr-[15px] xl:pr-[17px] 2xl:pr-10 flex gap-3 xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[20px] xl:rounded-[50px] max-h-[142px] md:max-h-[137px] xl:max-h-[220px] 2xl:max-h-[193px] ">
+                <span className="font-bold text-xl xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px] inline-block align-top">
                   01
                 </span>
 
-                <div className="max-w-[623px] flex flex-col gap-3">
-                  <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
+                <div className="md:max-w-[332px] xl:max-w-[623px] flex flex-col gap-1 xl:gap-3">
+                  <h3 className="font-bold text-[15px] md:text-xl xl:text-2xl text-[var(--cvet-teksta)]">
                     Работа с современными CMS
                   </h3>
-                  <p className="xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                  <p className="md:max-w-[317px] xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-sm xl:text-[20px] text-wrap text-[var(--cvet-teksta)]">
                     Создаем сайты на мощных системах управления контентом,
                     такими как Payload, WordPress, 1С-Битрикс, Joomla, OpenCart
                     и другие.
@@ -131,16 +131,16 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="max-w-[904px] pt-8 xl:pb-[54px] 2xl:pb-8 pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
-                <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px]">
+              <div className="max-w-[335px] md:max-w-[470px] xl:max-w-[904px] pt-3 xl:pt-8 pb-6 md:pb-[13px] xl:pb-[54px] 2xl:pb-8 pl-3 xl:pl-8 pr-3 md:pr-[15px] xl:pr-[17px] 2xl:pr-10 flex gap-3 xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[20px] xl:rounded-[50px] max-h-[142px] md:max-h-[137px] xl:max-h-[220px] 2xl:max-h-[193px]">
+                <span className="font-bold text-xl xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px] inline-block align-top">
                   02
                 </span>
 
-                <div className="max-w-[623px] flex flex-col gap-3">
-                  <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
+                <div className="md:max-w-[332px] xl:max-w-[623px] flex flex-col gap-1 xl:gap-3">
+                  <h3 className="font-bold text-[15px] md:text-xl xl:text-2xl text-[var(--cvet-teksta)]">
                     Постановка бизнес-задачи
                   </h3>
-                  <p className="xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                  <p className="md:max-w-[317px] xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-sm xl:text-[20px] text-wrap text-[var(--cvet-teksta)]">
                     Каждый проект начинается с анализа вашего бизнеса. Создаем
                     уникальный сайт, который решает ваши задачи и соответствует
                     вашим целям.
@@ -148,16 +148,16 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="max-w-[904px] pt-8 pb-[57px] pl-8 xl:pr-[17px] 2xl:pr-10 flex xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
-                <span className="font-bold xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px]">
+              <div className="max-w-[335px] md:max-w-[470px] xl:max-w-[904px] pt-3 xl:pt-8 pb-6 md:pb-[13px] xl:pb-[57px] pl-3 xl:pl-8 pr-3 md:pr-[15px] xl:pr-[17px] 2xl:pr-10 flex gap-3 xl:gap-10 2xl:gap-14 items-start bg-[var(--cvet-teksta-2)] rounded-[20px] max-h-[142px] md:max-h-[137px] xl:rounded-[50px] xl:max-h-[220px] 2xl:max-h-[193px]">
+                <span className="font-bold text-xl xl:text-[40px] 2xl:text-6xl text-[var(--osnovnoy-cvet-3)] max-h-[70px] inline-block align-top">
                   03
                 </span>
 
-                <div className="max-w-[623px] flex flex-col gap-3">
-                  <h3 className="font-bold text-2xl text-[var(--cvet-teksta)]">
+                <div className="md:max-w-[332px] xl:max-w-[623px] flex flex-col gap-1 xl:gap-3">
+                  <h3 className="font-bold text-[15px] md:text-xl xl:text-2xl text-[var(--cvet-teksta)]">
                     Создание продающих сайтов под ключ
                   </h3>
-                  <p className="xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-[20px] text-wrap text-[var(--cvet-teksta)]">
+                  <p className="md:max-w-[317px] xl:max-w-[485px] 2xl:max-w-[623px] font-normal text-sm xl:text-[20px] text-wrap text-[var(--cvet-teksta)]">
                     Мы разрабатываем не просто сайты, а ликвидные проекты с
                     продуманным дизайном и маркетинговой стратегией.
                   </p>
