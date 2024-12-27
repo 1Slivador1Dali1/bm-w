@@ -18,7 +18,6 @@ const Header = () => {
       setOpenDropdown(null);
     } else {
       setOpenDropdown(index);
-      setOpenSubDropdown(null);
       setOpenSeoDropdown(null);
     }
   };
@@ -54,7 +53,7 @@ const Header = () => {
           />
         </Link>
         <button
-          className="block xl:hidden focus:outline-none bg-[var(--osnovnoy-cvet)] p-2 rounded-[50%]"
+          className="block xl:hidden focus:outline-none bg-[var(--osnovnoy-cvet)] px-2 py-[11px] rounded-[50%]"
           onClick={toggleMenu}
         >
           <span
@@ -110,7 +109,7 @@ const Header = () => {
                   </svg>
                 </span>
                 {openDropdown === 1 && (
-                  <ul className="relative md:absolute md:left-[150px] md:-top-[40px] xl:left-auto xl:top-full mt-0 bg-[var(--osnovnoy-cvet-2)] py-2 rounded-2xl w-full md:w-[300px] md:max-w-[250px]">
+                  <ul className="relative md:absolute md:left-[150px] md:-top-[40px] xl:left-auto xl:top-full mt-0 bg-[var(--osnovnoy-cvet-2)] py-2 rounded-2xl w-full md:w-[300px] md:max-w-[250px] transition-all duration-300 ease-in-out">
                     <li className="px-4 py-2 ">
                       <Link
                         href="#"
@@ -130,7 +129,9 @@ const Header = () => {
                         Разработка сайтов
                         <svg
                           className={`ml-2 w-[12px] h-[6px] transform transition-transform ${
-                            openSubDropdown === 2 ? "-rotate-90" : "rotate-0"
+                            openSubDropdown === 2
+                              ? "rotate-180 md:-rotate-90"
+                              : "rotate-0"
                           }`}
                           width="12"
                           height="6"
@@ -145,7 +146,7 @@ const Header = () => {
                         </svg>
                       </span>
                       {openSubDropdown === 2 && (
-                        <ul className="relative md:absolute md:left-full md:top-0 bg-[var(--osnovnoy-cvet-2)] shadow-lg py-2 rounded-md w-[250px]">
+                        <ul className="relative md:absolute md:left-full md:top-0 bg-[var(--osnovnoy-cvet-2)] shadow-lg py-2 rounded-md w-[250px] transition-all duration-300 ease-in-out">
                           <li className="px-4 py-2 hover:underline hover:decoration-[3px] hover:underline-offset-4 max-xl:hover:decoration-[var(--osnovnoy-cvet)] hover:decoration-[var(--akcentnyy-cvet)]">
                             <Link href="#" className="text-white">
                               Сайт на Payload
@@ -188,7 +189,9 @@ const Header = () => {
                         SEO
                         <svg
                           className={`ml-2 w-[12px] h-[6px] transform transition-transform ${
-                            openSeoDropdown === 1 ? "-rotate-90" : "rotate-0"
+                            openSeoDropdown === 1
+                              ? "rotate-180 md:-rotate-90"
+                              : "rotate-0"
                           }`}
                           width="12"
                           height="6"
@@ -203,7 +206,7 @@ const Header = () => {
                         </svg>
                       </span>
                       {openSeoDropdown === 1 && (
-                        <ul className="relative md:absolute md:left-full md:top-[100px] xl:top-[130px] bg-[var(--osnovnoy-cvet-2)] shadow-lg py-2 rounded-md w-[250px]">
+                        <ul className="relative md:absolute md:left-full md:top-[100px] xl:top-[130px] bg-[var(--osnovnoy-cvet-2)] shadow-lg py-2 rounded-md w-[250px] transition-all duration-300 ease-in-out">
                           <li className="px-4 py-2 hover:underline hover:decoration-[3px] hover:underline-offset-4 max-xl:hover:decoration-[var(--osnovnoy-cvet)] hover:decoration-[var(--akcentnyy-cvet)]">
                             <Link href="#" className="text-white">
                               SEO Оптимизация
