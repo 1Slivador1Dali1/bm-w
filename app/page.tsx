@@ -1,8 +1,11 @@
 import Image from "next/image";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <div className="min-w-[375px] max-w-[1920px] min-h-screen bg-[var(--cvet-teksta-2)] pt-[50px]">
+    <div className="min-w-[375px] max-w-[1920px] min-h-screen bg-[var(--cvet-teksta-2)] pt-3">
+      <Header />
+
       <div className="min-w-[359px] max-md:max-w-[730px] md:max-w-[730px] lg:max-w-[1200px] xl:max-w-[1400px] 2xl:max-w-[1520px] mx-auto flex flex-col justify-center gap-7 mb-[120px]">
         <div className="flex flex-col sm:gap-3 xl:gap-7 w-full max-md:px-2 md:px-3">
           <h2 className="max-sm:w-[150px] text-[var(--cvet-teksta)] font-bold uppercase lg:text-[26px] xl:text-[45px] 2xl:text-[55px] max-xl:leading-[1.5rem] xl:leading-[4.5rem] tracking-[0.04em]">
